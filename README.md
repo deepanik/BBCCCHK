@@ -47,4 +47,4 @@ We welcome contributions to improve this API and its documentation. Feel free to
 
 ## Legal
 
-This documentation is provided under [MIT] license. The API usage is subject to the terms outlined in the site's official terms of use.
+This documentation is provided under [MIT](./LICENSE) license. The API usage is subject to the terms outlined in the site's official terms of use.
