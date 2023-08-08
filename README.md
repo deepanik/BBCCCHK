@@ -16,8 +16,7 @@ This API and documentation are provided as-is. The creators and maintainers of t
 
 To use the BBCCCHK API, follow the steps below:
 
-1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command: git clone https://github.com/your-username/BBCCCHK.git
-git clone https://github.com/your-username/BBCCCHK.git
+1. **Clone the Repository**: Start by cloning this repository to your local machine using the following command: git clone https://github.com/deepanik/BBCCCHK.git
 
 2. **Navigate to API Directory**: Change your working directory to the `BBCCCHK` directory:
 cd BBCCCHK
