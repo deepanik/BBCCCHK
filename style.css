@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Set background and text colors */
+body {
+    background-color: #1a1a1a;
+    /* Dark gray background */
+    color: goldenrod;
+    /* Fiery orange text color */
+    font-family: 'Merienda One', cursive;
+    /* Dragon font */
+}
+
+/* Optional styling for header and footer */
+header,
+footer {
+    background-color: #333;
+    color: #ff9933;
+    padding: 10px;
+}
+
+/* Style the card */
+.card {
+    background-color: #333;
+    border: 2px solid #ff9933;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* Style the textarea */
+.md-textarea {
+    background-color: #1a1a1a;
+    color: #ff9933;
+    border: 2px solid #ff9933;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Style primary buttons */
+.btn-primary {
+    background-color: #ff9933;
+    border-color: #ff9933;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #ff8000;
+    border-color: #ff8000;
+}
+
+.hacker-btn {
+    background-color: #000;
+    color: blue;
+    border: 1px solid blue;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.hacker-btn::before {
+    content: "";
+    position: absolute;
+    background: blue;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.hacker-btn:hover::before {
+    left: 100%;
+}
+
+.hacker-btn:hover {
+    color: #000;
+}
